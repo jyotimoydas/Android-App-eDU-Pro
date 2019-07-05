@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#CCCCFF">
+
+    <Button
+        android:id="@+id/button113"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/button117"
+        android:layout_below="@+id/button117"
+        android:layout_marginTop="13dp"
+        android:text="DELETE"
+        android:drawableStart="@drawable/delete"/>
+
+    <Button
+        android:id="@+id/button114"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/button117"
+        android:layout_below="@+id/button116"
+        android:layout_marginTop="14dp"
+        android:text="VIEW"
+        android:drawableStart="@drawable/view"/>
+
+    <Button
+        android:id="@+id/button115"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="ADD"
+        android:drawableStart="@drawable/add"/>
+
+    <TextView
+        android:id="@+id/textView121"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp"
+        android:text="Enter The CGPA below"
+        android:textColor="#000000"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:fontFamily="serif-monospace"/>
+
+    <EditText
+        android:id="@+id/editText112"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textView121"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="ROLL NO"
+        android:inputType="textPersonName"
+        android:textColorHint="#000000" />
+
+    <EditText
+        android:textColorHint="#000000"
+        android:id="@+id/editText113"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button115"
+        android:layout_alignStart="@+id/editText112"
+        android:layout_marginBottom="30dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="CGPA" />
+
+    <Button
+        android:id="@+id/button116"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/button115"
+        android:layout_below="@+id/button115"
+        android:layout_marginTop="8dp"
+        android:text="MODIFY"
+        android:drawableStart="@drawable/mod"/>
+
+    <Button
+        android:id="@+id/button117"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/button115"
+        android:layout_below="@+id/button114"
+        android:layout_marginTop="9dp"
+        android:text="VIEWALL"
+        android:drawableStart="@drawable/view"/>
+</RelativeLayout>

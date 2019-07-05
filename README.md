@@ -1,2 +1,2 @@
-# Android-App-eDU-Pro
-This is the app that I've built during my training in Webtek Labs Kolkata. It is a small attempt to capture the needs of the University. The database used here is the SQLite Database.
+# Android-Application-eDU-Pro
+eDU-pro is an Android Application For Dibrugarh University. As the name implies the application is mainly for students benefit. The students can get University Details,Notice etc from the application directly without going to the main webpage.

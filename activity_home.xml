@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/home12">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="110dp"
+        app:srcCompat="@drawable/person1" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/imageView7"
+        android:layout_below="@+id/imageView7"
+        android:layout_marginTop="29dp"
+        app:srcCompat="@drawable/person1" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/imageView8"
+        android:layout_below="@+id/imageView8"
+        android:layout_marginTop="33dp"
+        app:srcCompat="@drawable/person1" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView7"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@+id/imageView7"
+        android:text="Name : Mr XYZ"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView9"
+        android:layout_below="@+id/textView9"
+        android:layout_marginTop="11dp"
+        android:text="Depart : CSE"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView10"
+        android:layout_alignTop="@+id/imageView8"
+        android:text="Name : Miss GHJ"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:textColor="#000000"
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView9"
+        android:layout_alignStart="@+id/textView12"
+        android:text="Depart : ECE"
+        />
+
+    <TextView
+        android:textColor="#000000"
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView13"
+        android:layout_alignTop="@+id/imageView9"
+        android:text="Name : Mr ABC" />
+
+    <TextView
+        android:textColor="#000000"
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView9"
+        android:layout_alignStart="@+id/textView14"
+        android:text="Depart : ME" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView15"
+        android:layout_below="@+id/textView15"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="89dp"
+        android:background="@drawable/button"
+        android:text="Ebook"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button12"
+        android:textStyle="bold"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/button11"
+        android:layout_below="@+id/button11"
+        android:layout_marginTop="16dp"
+
+        android:text="Time table"
+        android:background="@drawable/button"/>
+
+    <Button
+        android:id="@+id/button18"
+        android:textStyle="bold"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/button12"
+        android:layout_below="@+id/button12"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button"
+        android:text="Sign in" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/imageView7"
+        android:layout_marginTop="36dp"
+        android:text="Our Faculties"
+        android:fontFamily="serif-monospace"
+        android:textColor="#000000"
+        android:textSize="40dp"
+        android:textStyle="bold"/>
+</RelativeLayout>

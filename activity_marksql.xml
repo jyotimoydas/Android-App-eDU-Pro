@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#CCCCFF">
+
+    <EditText
+        android:id="@+id/editText300"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText304"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="52dp"
+        android:ems="10"
+        android:hint="Enter Roll Number Here"
+        android:textColorHint="#000000"
+        android:inputType="textPersonName" />
+
+    <Button
+
+        android:id="@+id/button324"
+        android:layout_width="300dp"
+        android:textSize="50dp"
+        android:fontFamily="serif-monospace"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="241dp"
+        android:text="CGPA"
+        android:background="@drawable/button"
+        />
+
+    <EditText
+        android:textColorHint="#000000"
+        android:id="@+id/editText304"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button324"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="59dp"
+        android:ems="10"
+        android:hint="Your Marks Will Be Shown Here"
+        android:inputType="textPersonName" />
+</RelativeLayout>

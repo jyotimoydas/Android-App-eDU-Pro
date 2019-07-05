@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2F4F4F"
+    tools:context="com.webtek.edupro.home">
+
+
+    <ImageView
+        android:id="@+id/imageView99"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/imageView93"
+        android:layout_marginTop="91dp"
+        app:srcCompat="@drawable/b1"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView92"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignEnd="@+id/imageView94"
+        android:layout_alignTop="@+id/imageView99"
+        app:srcCompat="@drawable/b2"
+        tools:layout_editor_absoluteX="223dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView93"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button99"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="23dp"
+        app:srcCompat="@drawable/b3"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="278dp" />
+
+    <ImageView
+        android:id="@+id/imageView94"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/imageView93"
+        android:layout_marginEnd="16dp"
+        app:srcCompat="@drawable/b4"
+        tools:layout_editor_absoluteX="229dp"
+        tools:layout_editor_absoluteY="278dp" />
+
+    <Button
+        android:id="@+id/button99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button92"
+        android:layout_alignBottom="@+id/button92"
+        android:layout_alignStart="@+id/imageView99"
+        android:layout_marginStart="24dp"
+        android:text="Click"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        android:fontFamily="serif-monospace"
+        android:background="@drawable/button"/>
+
+    <Button
+        android:id="@+id/button92"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:fontFamily="serif-monospace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView92"
+        android:layout_below="@+id/imageView92"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="27dp"
+        android:text="Click"
+        android:textColor="#ffffff"
+        android:background="@drawable/button"/>
+
+    <Button
+        android:id="@+id/button93"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:fontFamily="serif-monospace"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/button99"
+        android:layout_below="@+id/imageView93"
+        android:layout_marginTop="27dp"
+        android:text="Click"
+        android:textColor="#ffffff"
+        android:background="@drawable/button"/>
+
+    <Button
+        android:id="@+id/button94"
+        android:background="@drawable/button"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:fontFamily="serif-monospace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button93"
+        android:layout_alignStart="@+id/button92"
+        android:text="Click"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView92"
+        android:layout_alignStart="@+id/imageView99"
+        android:fontFamily="casual"
+        android:text="E-books :"
+        android:textColor="#ffffff"
+        android:textSize="60sp"
+        android:textStyle="italic" />
+
+</RelativeLayout>
